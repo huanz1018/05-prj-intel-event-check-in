@@ -102,22 +102,24 @@ body {
   flex-wrap: wrap;
   gap: 15px;
   width: 100%;
-  align-items: stretch;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .input-wrapper {
-  flex: 1 1 220px;
+  flex: 2 1 320px;
   min-width: 180px;
   display: flex;
-  gap: 10px;
-  align-items: stretch;
+  gap: 15px;
+  align-items: center;
 }
 
 button {
-  max-width: 200px;
+  max-width: 180px;
   width: 100%;
-  align-self: stretch;
+  align-self: center;
   box-sizing: border-box;
+  margin-left: 10px;
 }
 
 /* Form elements */
