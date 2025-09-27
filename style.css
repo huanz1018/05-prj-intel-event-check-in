@@ -99,8 +99,25 @@ body {
 
 .form-group {
   display: flex;
+  flex-wrap: wrap;
   gap: 15px;
   width: 100%;
+  align-items: stretch;
+}
+
+.input-wrapper {
+  flex: 1 1 220px;
+  min-width: 180px;
+  display: flex;
+  gap: 10px;
+  align-items: stretch;
+}
+
+button {
+  max-width: 200px;
+  width: 100%;
+  align-self: stretch;
+  box-sizing: border-box;
 }
 
 /* Form elements */
