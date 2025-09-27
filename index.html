@@ -26,9 +26,11 @@
     </div>
     <!-- Attendance tracking -->
     <div class="attendance-tracker">
+      <!-- Celebration Message at the top -->
+      <div id="celebrationMessage" style="display: none"></div>
       <div class="attendance-header">
         <i class="fas fa-users"></i>
-        Attendance: <span id="attendeeCount">0</span>/50
+        Attendance: <span id="attendeeCount">0</span>/5
       </div>
       <div class="progress-container">
         <div id="progressBar" class="progress-bar"></div>
@@ -80,6 +82,12 @@
             <span class="team-count" id="powerCount">0</span>
           </div>
         </div>
+        <!-- Attendee List -->
+        <div id="attendeeListContainer">
+          <h4>Attendee List</h4>
+          <ul id="attendeeList"></ul>
+        </div>
+        <!-- Celebration Message moved above -->
       </div>
     </div>
 
